@@ -1,0 +1,248 @@
+html {
+    font-family: 'Poppins', sans-serif;
+    /* height: 100%; */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* min-height: 100%; */
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100000;
+    padding: 0;
+}
+
+
+.logintopright {
+    font-size: 18px;
+}
+
+.carttopright {
+    font-size: 20px;
+    display: flex;
+}
+
+.cart-items{
+    font-size: 16px;
+    position: relative;
+    top: 3px;
+    right: 0.5px;
+    /* background-color: orange;
+    border-radius: 100%; */
+}
+
+.logindiv {
+    display: grid;
+    justify-content: center;
+}
+
+.login {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.loginicon {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbarcontainer {
+    margin: auto;
+    /* display: flex;
+    justify-content: space-between;
+    width: 100%; */ 
+}
+
+.navbar{
+    font-weight: bold;
+}
+
+.nav-item {
+    font-size: 22px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+
+/* .dropdown-toggle:hover>.dropdown-menu{
+    display: none;
+} */
+
+
+.dropdown-item {
+    font-size: 18px;
+}
+
+.navbarmiddlefour {
+    position: relative;
+    /* margin: auto; */
+    /* padding-left: 17em; */
+}
+
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.6;
+}
+
+.landingpagelink {
+    z-index: 100;
+}
+
+.card-title {
+    padding: 0 0.8em 0.5em;
+    height: 4.5em;
+}
+
+.card-details {
+    padding: 0 0.8em 0.5em;
+}
+
+.addtocart {
+    text-align: center;
+    text-decoration: none;
+    color: green;
+    font-size: 24px;
+}
+
+.addtocart:hover{
+    color: green;
+}
+
+.backgroundofmodernbody {
+    background-color: white;
+    margin: 1em;
+}
+
+.backtotop{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: lightgrey;
+    width: 100%;
+}
+
+.backtotopbtn {
+    border: none;
+    outline: none;
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+
+.footer {
+    position: absolute;
+    /* bottom: 0; */
+    width: 100%; 
+    background-color: lightgray;
+}
+
+
+.footernote{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.card {
+    border: none;
+}
+
+.bestsellers {
+    /* border: solid; */
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+.bestsellerstitle{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: bolder;
+}
+
+.imageholder {
+    margin: auto;
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
+}
+
+.landingcardimage {
+    width: 100%;
+}
+
+.buttonlogin .buttontotalcart{
+    border: none;
+}
+
+.bottomstuffheader {
+    /* margin: auto; */
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.bottomstufflink {
+    text-decoration: none;
+    color: black;   
+    /* padding-top: 0.5em;
+    padding-bottom: 0.5em; */
+
+}
+
+.bottomstuffcolumn {
+    margin-bottom: 1em;
+}
+
+/* .popuplogin{
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+} */
+
+/* .createaccountform{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: solid;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.form-control {
+    border: none;
+} */
+
+.current {
+    font-weight: bold;
+}
+
+.comingsoonmain {
+    text-align: center;
+    font-size: 36px;
+}
+
+.gobacktoshop {
+    text-align: center;
+}
