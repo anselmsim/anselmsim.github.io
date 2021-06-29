@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="images/shinygyarados.png">
+    <title>Website Name</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <!-- <div class="container"> -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <!-- <nav class="navbar navbar-expand-lg header-nav fixed-top"> -->
+
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Logo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between navbarmiddlefour"
+                    id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownProducts" aria-expanded="false"
+                                href="products.html">
+                                Products
+                                <!-- <span class="dropdownarrowcustom"><img src="images/drop-down-arrow.png"
+                                            height="13px" width="13px"></span> -->
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownProducts">
+                                <li><a class="dropdown-item" href="products/modern/main.html">Modern</a></li>
+                                <li><a class="dropdown-item" href="products/vintage/main.html">Vintage</a></li>
+                                <li><a class="dropdown-item" href="products/supplies.html">Supplies</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " id="navbarDropdownConnect" role="button"
+                                aria-expanded="false" href="connect.html">
+                                Connect
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownConnect">
+                                <li><a class="dropdown-item" href="connect.html">Contact Us</a></li>
+                                <li><a class="dropdown-item" href="sellus.html">Sell Us</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li> <a class="nav-link logintopright" href="login.html">
+                                Login
+                            </a>
+                        </li>
+                        <li class="carttopright"> <a class="nav-link" href="cart.html"><i class="bi bi-cart"></i>
+                            </a>
+                            <div class="cart-items">0</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- </div> -->
+    </header>
+    <div class="container">
+        <div class="row landingslider">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/main-page-slider-main.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="firstslidelabel">Welcome to The Friendly Fisherman's Page</h5>
+                            <p>Have fun shopping!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/main-page-slider-battle-styles.JPG" class="d-block w-100" alt="...">
+
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="secondslidelabel">Battle Styles Now Available!</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/main-page-slider-umbreon.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="thirdslidelabel">Sell Us Your Singles!</h5>
+                            <p>Available soon!</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="row bestsellers">
+            <div class="container">
+                <div class="row bestsellerstitle">
+                    <!-- Best Sellers 🔥🔥🔥 -->
+                    <h2 id="bestsellerstypewriter"></h2>
+                </div>
+
+                <div class="row bestsellerscards">
+                    <div class="card mb-3 col-lg-4 col-sm-12">
+                        <div class="row g-0">
+                            <div class="col-sm-4 imageholder">
+                                <a href="#"> <img class="landingcardimage"
+                                        src="images/productimages/modernimages/sssealedproduct-shining-fates-booster-pack.jpg"
+                                        alt="..." width="425">
+                                </a>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="row card-title">
+                                    <h5>Shining Fates Booster Pack</h5>
+                                </div>
+
+                                <div class="row card-details">
+                                    <div class="col-md-5 productquantity">
+                                        <p>Quantity</p>
+                                        <p>100</p>
+                                    </div>
+                                    <div class="col-md-4 productprice">
+                                        <p>Price</p>
+                                        <p>$9.99</p>
+                                    </div>
+                                    <div class="col-md-3 addtocart">
+                                        <a href="#" class="addtocart"><i class="bi bi-cart-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3 col-lg-4 col-sm-12">
+                        <div class="row g-0">
+                            <div class="col-sm-4 imageholder">
+                                <a href="#"> <img class="landingcardimage"
+                                        src="images/productimages/modernimages/sssealedproduct-battle-styles-booster-pack.jpg"
+                                        alt="..." width="425">
+                                </a>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="row card-title">
+                                    <h5>Battle Styles Booster Pack</h5>
+                                </div>
+
+                                <div class="row card-details">
+                                    <div class="col-md-5 productquantity">
+                                        <p>Quantity</p>
+                                        <p>72</p>
+                                    </div>
+                                    <div class="col-md-4 productprice">
+                                        <p>Price</p>
+                                        <p>$5.99</p>
+                                    </div>
+                                    <div class="col-md-3 addtocart">
+                                        <a href="#" class="addtocart"><i class="bi bi-cart-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3 col-lg-4 col-sm-12">
+                        <div class="row g-0">
+                            <div class="col-sm-4 imageholder">
+                                <a href="#"> <img class="landingcardimage"
+                                        src="images/productimages/modernimages/sspromos-charizard-v-full-art.jpg"
+                                        alt="..." width="425">
+                                </a>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="row card-title">
+                                    <h5>Charizard V Sealed Promo - SWSH050</h5>
+                                </div>
+
+                                <div class="row card-details">
+                                    <div class="col-md-5 productquantity">
+                                        <p>Quantity</p>
+                                        <p>28</p>
+                                    </div>
+                                    <div class="col-md-4 productprice">
+                                        <p>Price</p>
+                                        <p>$19.99</p>
+                                    </div>
+                                    <div class="col-md-3 addtocart">
+                                        <a href="#" class="addtocart"><i class="bi bi-cart-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="popuplogin"></div> -->
+
+
+    <div class="backtotop">
+        <button class="backtotopbtn" id="backtotopbtn">Back to top</button>
+    </div>
+
+
+    <div class="container bottomstuff">
+        <!-- <div class="row">
+            <h2>Bottom Stuff</h2>
+        </div> -->
+
+        <div class="row bottomstuffrow">
+            <div class="col-12 col-md-6 col-lg-3 bottomstuffcolumn">
+                <h5 class="bottomstuffheader">How Can We Help?</h5>
+                <a href="#" class="bottomstufflink" href="connect.html">Leave Us Feedback</a><br>
+                <a href="#" class="bottomstufflink" href="#">Refund and Return Policy</a><br>
+                <h5 class="bottomstuffheader">Connect With Us</h5>
+                <p>facebook twitter instagram</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 bottomstuffcolumn">
+                <h5 class="bottomstuffheader">Shop</h5>
+                <a href="products/modern/main.html" class="bottomstufflink">Modern</a><br>
+                <a href="products/vintage/main.html" class="bottomstufflink">Vintage</a><br>
+                <a href="products/supplies.html" class="bottomstufflink">Supplies</a><br>
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 bottomstuffcolumn">
+                <h5 class="bottomstuffheader">Buy With Us <span class="comingsoon">(Coming Soon!)</span></h5>
+                <a href="#" class="bottomstufflink">Buyer Safeguard</a><br>
+                <a href="#" class="bottomstufflink">Web Credit</a><br>
+                <a href="#" class="bottomstufflink">Gift Cards</a><br>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 bottomstuffcolumn">
+                <h5 class="bottomstuffheader">Buylist</h5>
+                <a href="sellus.html" class="bottomstufflink">Sell Us</a><br>
+                <h5 class="bottomstuffheader">About</h5>
+                <a href="about.html" class="bottomstufflink">About Us</a><br>
+                <a href="about.html#ourcorevalues" class="bottomstufflink">Our Core Values</a><br>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footernote">
+                All original content herein is Copyright © 2021 abcd. abcd.com® is a
+                trademark of abcd.<br>
+                <span>No portion of this website may be used without expressed written consent. All rights
+                    reserved.</span>
+            </p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/2.17.0/core.min.js"
+        integrity="sha512-o6alMAMTI5qAmVC1UvuRPgTl3UOOkP8NZ6212+rq1Oslsuy8Owt9r5Z0Wu0LNxpw/Q8N8ToGiyovHV+kyOulxg=="
+        crossorigin="anonymous"></script>
+    <script src="js/javascript.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <script type="text/babel" src="js/react.js"></script>
+</body>
+
+</html>
