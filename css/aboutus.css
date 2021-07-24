@@ -1,0 +1,63 @@
+body {
+    background-color: white;
+}
+
+.aboutuscontainer {
+    color: black;
+    padding: 1em;
+
+}
+
+.aboutusheader{
+    text-align: center;
+    margin: auto;
+    padding: 1em 1em;
+}
+
+.aboutustextleft, .aboutustextright{
+    font-size: 18.5px;
+}
+
+
+.corevaluesheader{
+    text-align: center;
+    margin: auto;
+    padding: 1em 1em;
+
+}
+
+.aboutusimageleft, .aboutusimageright {
+    clip-path: circle();
+    margin: auto;
+display: flex;}
+
+/* .aboutusimageleft {
+    margin-left: 1.5em;
+}
+
+.aboutusimageright, .aboutustextright{
+    margin-right: 1.5em;
+}
+
+
+
+.imageholder {
+
+} */
+
+.aboutusrow{
+    padding: 2em 0;
+}
+
+.imageright {
+    text-align: right;
+}
+
+.aboutussubheader, .corevaluesheader, .aboutusheader {
+    font-weight: bolder;
+}
+
+.buylistlink {
+    text-decoration: none;
+    color: black;
+}

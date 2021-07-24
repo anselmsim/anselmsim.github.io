@@ -246,3 +246,10 @@ header {
 .gobacktoshop {
     text-align: center;
 }
+
+.logo{
+    font-family: Copperplate,Copperplate Gothic Light,fantasy;
+    font-size: 32px;
+    color: red;
+    text-decoration: wavy;
+}
