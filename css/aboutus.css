@@ -45,7 +45,7 @@ display: flex;}
 
 } */
 
-.aboutusrow{
+.aboutusrow, .corevaluesrow{
     padding: 2em 0;
 }
 
