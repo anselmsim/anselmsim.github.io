@@ -1,0 +1,51 @@
+.contactus {
+    margin: auto;
+    padding: 1.5em;
+}
+
+
+/* .contactusform {
+    background-color: lightblue;
+}
+
+.addressdiv {
+    background-color: lightpink;
+} */
+
+.contactusform, .addressdiv{
+    padding: 1em;
+}
+
+.form-group{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.requiredfields {
+    font-weight: normal;
+}
+
+.redasterisk {
+    color: red;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.sendmessagebutton {
+    font-weight: bold;
+}
+
+.sendmessagebuttoncontainer {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+.contactusalert {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
